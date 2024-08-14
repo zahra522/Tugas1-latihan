@@ -26,6 +26,10 @@ Route::get('/getdatahome', [HomeController::class, 'getdata']);
 Route::get('/denial', [HomeController::class, 'denial']);
 Route::get('/indexSekolah', [SekolahController::class, 'index']);
 Route::get('/indexSiswa', [SiswaController::class, 'index']);
+Route::get('/createSiswa', [SiswaController::class, 'create']);
+Route::post('/storeSiswa', [SiswaController::class, 'store']);
+
+
 
 
 

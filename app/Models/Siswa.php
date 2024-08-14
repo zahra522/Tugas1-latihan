@@ -12,7 +12,7 @@ class Siswa extends Model
 
     protected $fillable = [
         'nama',
-        'No_Telepon',
+        'no_tlp',
         'NIS',
         'alamat',
         'status',
